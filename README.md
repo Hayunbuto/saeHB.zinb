@@ -68,4 +68,4 @@ result$refVar
 * Ntzoufras, I. (2009). Bayesian Modelling Using WinBUGS. New Jersey :  John Wiley & Sons, Inc. <doi.org/10.1002/9780470434567>
 * Rao, J.N.K & Molina. (2015). Small Area Estimation 2nd Edition. New Jersey : John Wiley & Sons, Inc. <doi.org/10.1002/9781118735855>
 * S. Krieg, H. J. Boonstra, and M. Smeets. (2016). Small-area estimation with zero-inflated data – a simulation study. J. Off. Stat., vol. 32, no. 4, pp. 963–986, 2016. <doi.org/10.1515/jos-2016-0051>
-# saeHB.zinb
+
