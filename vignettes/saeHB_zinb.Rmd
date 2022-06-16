@@ -1,0 +1,42 @@
+---
+title: "An Application SAE HB under ZINB Model On sampel dataset"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{An Application SAE HB under ZINB Model On sampel dataset}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## STEP 1: Load package and load the data
+```{r setup}
+library(saeHB.zinb)
+data("dataZINB")
+```
+
+## STEP 2: Fitting HB Model
+```{r}
+result <- ZinbHB(formula = y ~ x1 + x2, data = dataZINB)
+```
+
+## STEP 3 Extract mean estimation
+
+### Small Area mean Estimates
+```{r}
+result$Est 
+```
+### Coefficient Estimation
+```{r}
+result$coefficient  
+```
+### Random effect variance estimation
+```{r}
+result$refVar 
+```
+
